@@ -1,5 +1,4 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Hotel} from '../search/search.component';
 
 
 @Component({
@@ -8,10 +7,7 @@ import {Hotel} from '../search/search.component';
   styleUrls: ['./hotels.component.scss']
 })
 export class HotelsComponent implements OnInit {
-
-  @Input() hotels: Hotel[] = [];
-
-  constructor() { }
+   constructor() { }
 
   ngOnInit(): void {
   }

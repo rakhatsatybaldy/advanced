@@ -11,6 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HotelsComponent } from './hotels/hotels.component';
+import {HoverDirective} from './hover.directive';
 
 
 const appRoutes: Routes = [
@@ -36,7 +37,8 @@ const appRoutes: Routes = [
     SearchComponent,
     HeaderComponent,
     FooterComponent,
-    HotelsComponent
+    HotelsComponent,
+    HoverDirective
   ],
   imports: [
     BrowserModule,
